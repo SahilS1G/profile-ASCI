@@ -1,0 +1,63 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.105);
+}
+
+.myself{
+    color: white;
+    font-size: 35px;
+    
+}
+
+.self{
+    color: rgb(249, 0, 77);
+    
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    transition: color 0.2s, letter-spacing 0.2s, border-box 0.2s ;
+}
+nav ul li a:hover{
+    color: rgb(22, 209, 143);
+    box-shadow: 0px 10px 10px rgba(248, 246, 246, 0.314);
+}
+
+
+
+
+
+
+
+@media only screen and (max-width:700px){
+    nav ul{
+        width: 100;
+        background-color: rgba(0, 0, 0, 0.199);
+        position: absolute;
+        right: 0;
+        z-index: 2;
+    }
+    nav ul li{
+        display: block;
+        margin-top: 10px;
+        margin-bottom:10px ;
+    }
+    nav ul li a{
+        color: #fff;
+    }
+}

@@ -1,0 +1,71 @@
+
+
+.main .motivate-about{
+    display: flex;
+    flex-direction: row;
+}
+
+.main .about-me{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+    letter-spacing: 1.5px;
+    flex: 1;
+}
+
+.main .motivate-about .motivation{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center ;
+    line-height: 20px;
+    font-size: 20px;
+    word-spacing: 10px;
+}
+
+.main .motivate-about .motivation p{
+    padding-top: 30px;
+
+}
+
+.main .motivate-about .about-me{
+    
+    border-radius: 20px;
+    word-spacing: 10px;
+    background-color: black;
+    padding-bottom: 20px;
+    margin: 5px 20px 0px 20px;
+    
+}
+.main .motivate-about .about-me p{
+    font-size: 20px;
+    padding-top: 50px;
+    letter-spacing: 1.3px;
+    flex: 1;
+
+}
+
+.main .motivate-about .about-me h2{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.main .motivate-about .about-me .about-fingerprint{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main .hobbies-achievements{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.hobbies-main,.achievements-main{
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(45deg,#28313B,#485461);
+}
+
